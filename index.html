@@ -1,20 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>English Dictionary - Unlocking Language, Empowering Knowledge</title>
+
+    <!-- Google Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
+        <!-- Input Area -->
         <div class="input-area">
             <form class="flex">
                 <input type="text" name="word" placeholder="Enter Word" required>
                 <input type="submit" value="Define" name="submit-btn">
             </form>
         </div>
+
+        <!-- Definition Area -->
+        <div class="definition-area">
+            <!-- <p class="placeholder-text">
+                Simply type in a word you're curious about to discover its meaning, usage, and more. 
+            </p> -->
+            <p class="placeholder-text searching">
+                Searching...
+            </p>
+            <div class="all-details">
+                <p class="word-phonetic-pronunce">
+                    <span class="word">hello</span>
+                    <span class="phonetic">/həˈləʊ/</span>
+                    <span class="pronunce">
+                        <span class="material-symbols-outlined">
+                            volume_up
+                        </span>
+                    </span>
+                </p>
+                <p class="origin">
+                    <span class="heading">Origin: </span>
+                    <span class="text">early 19th century: variant of earlier hollo ; related to holla.</span>
+                </p>
+                <div class="meaning">
+                    <p class="partOfSpeech">exclamation</p>
+                    <div class="defs">
+                        <div class="single-def">
+                            <p class="def">
+                                <span class="heading">1. </span>
+                                <span class="text">used as a greeting or to begin a phone conversation.</span>
+                            </p>
+                            <p class="example">
+                                <span class="heading">example: </span>
+                                <span class="text">hello there, Katie!</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
+
 </html>

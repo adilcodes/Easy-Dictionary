@@ -20,7 +20,7 @@ body {
 }
 
 .container {
-    width: 360px;
+    width: 370px;
 }
 
 .input-area form {
@@ -55,4 +55,74 @@ body {
 
 .input-area input[type="submit"]:active {
     background: #0866ff;
+}
+
+.definition-area {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #00000060;
+    max-height: 280px;
+    overflow: auto;
+}
+
+.definition-area .placeholder-text {
+    font-size: 14px;
+    color: #828282;
+}
+
+.placeholder-text.searching {
+    font-size: 15px;
+}
+
+/* Word Details */
+.word-phonetic-pronunce {
+    margin-bottom: 10px;
+}
+
+.word {
+    font-weight: 600;
+    font-size: 17px;
+    margin-right: 4px;
+}
+
+.phonetic {
+    color: #747474;
+    font-size: 14px;
+    margin-right: 3px;
+}
+
+.pronunce span {
+    color: #747474;
+    font-size: 22px;
+    transform: translateY(5px);
+    cursor: pointer;
+}
+
+.origin,
+.meaning {
+    margin-bottom: 15px;
+}
+
+.heading {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.text {
+    color: #545454;
+    font-size: 15px;
+}
+
+.partOfSpeech {
+    font-weight: 500;
+    color: #7e7e7e;
+    margin-bottom: 4px;
+}
+
+.defs .text {
+    color: #474747 !important;
+}
+
+.single-def {
+    margin-bottom: 13px;
 }
