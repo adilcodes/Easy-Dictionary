@@ -1,6 +1,7 @@
 // DOM Targeting:
 let searchLoading = document.querySelector(".searching"),
     placeholderText = document.querySelector("#placeholderText"),
+    inputForm = document.querySelector("form"),
     inputField = document.querySelector("#inputField"),
     definitionArea = document.querySelector(".definition-area"),
     allDetails = document.querySelector(".all-details");
@@ -89,9 +90,9 @@ const startFetching = async (word) => {
 }
 
 // Event Handlers:
-function submitHandler(e) {
+inputForm.addEventListener("submit", (e) => {
     e.preventDefault();
     placeholderText.classList.add("hide");
     searchLoading.classList.add("show");
     startFetching(inputField.value);
-}
+});
