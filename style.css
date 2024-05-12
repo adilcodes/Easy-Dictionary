@@ -127,6 +127,21 @@ body {
     margin-bottom: 3px;
 }
 
+/* Footer */
+.footer{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 17px;
+}
+.footer a{
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s ease-in-out;
+}
+.footer a:hover{
+    color: #0866ff;
+}
+
 /* Show and Hide Classes */
 .show {
     display: block !important;
