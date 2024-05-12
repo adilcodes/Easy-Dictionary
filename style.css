@@ -83,7 +83,7 @@
 
 .word {
     font-weight: 600;
-    font-size: 17px;
+    font-size: 18px;
     margin-right: 4px;
 }
 
@@ -118,6 +118,7 @@
     font-weight: 500;
     color: #7e7e7e;
     margin-bottom: 4px;
+    font-size: 16px;
 }
 
 .single-def {
