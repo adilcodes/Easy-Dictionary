@@ -12,15 +12,16 @@
     align-items: center;
 }
 
-body {
+/* body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-}
+} */
 
 .container {
     width: 370px;
+    padding: 15px;
 }
 
 .input-area form {
@@ -128,17 +129,19 @@ body {
 }
 
 /* Footer */
-.footer{
+.footer {
     text-align: center;
     font-size: 14px;
     margin-top: 17px;
 }
-.footer a{
+
+.footer a {
     text-decoration: none;
     color: #000;
     transition: 0.3s ease-in-out;
 }
-.footer a:hover{
+
+.footer a:hover {
     color: #0866ff;
 }
 
