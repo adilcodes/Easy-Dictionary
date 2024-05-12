@@ -72,6 +72,7 @@ body {
 
 .placeholder-text.searching {
     font-size: 15px;
+    display: none;
 }
 
 /* Word Details */
@@ -98,7 +99,6 @@ body {
     cursor: pointer;
 }
 
-.origin,
 .meaning {
     margin-bottom: 15px;
 }
@@ -109,7 +109,7 @@ body {
 }
 
 .text {
-    color: #545454;
+    color: #474747;
     font-size: 15px;
 }
 
@@ -119,10 +119,19 @@ body {
     margin-bottom: 4px;
 }
 
-.defs .text {
-    color: #474747 !important;
-}
-
 .single-def {
     margin-bottom: 13px;
+}
+
+.def {
+    margin-bottom: 3px;
+}
+
+/* Show and Hide Classes */
+.show {
+    display: block !important;
+}
+
+.hide {
+    display: none !important;
 }
